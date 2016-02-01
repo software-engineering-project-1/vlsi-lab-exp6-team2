@@ -1,0 +1,22 @@
+* Author 
+  Team 2
+* Date Created 
+  Fri Jan 29 15:36:18 IST 2016
+* Environment
++ OS: Linux Mint Rosa 17  
++ Browser: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
++ Hardware Configuration: 4GB RAM
++ Processor: i5
+* Objective 
+  To detect the presence of a manual for guidance in the experiment.
+* Pre conditions 
+  The plugin should be installed in the browser and the experiment
+  applet must be running.
+* Post conditions 
+  The manual is hard to find.
+* Test Steps 
+  Step-1: Visit the link: http://cse14-iiith.vlabs.ac.in/Experiment.php?tid=T005&code=C006
+  Step-2: Try and locate the manual for running the experiment.
+
+* Expected result 
+  The manual must be easy to locate and understand.
