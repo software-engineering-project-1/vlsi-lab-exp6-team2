@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module MyPanel-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="587" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="73" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="399" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.471" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.183" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="21" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="49" />
+<lines_of_code value="81" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="42" level="0" />
+<lines_of_code_per_line_of_comment value="1.929" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>MyPanel()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="2201" />
+</extent>
+<lines_of_code value="147" level="2" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="53" level="0" />
+<lines_of_code_per_line_of_comment value="2.774" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.132" level="0" />
+</member_function>
+<member_function>
+<name>actionPerformed(ActionEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="2867" />
+</extent>
+<lines_of_code value="206" level="2" />
+<McCabes_cyclomatic_complexity value="29" level="1" />
+<lines_of_comment value="38" level="0" />
+<lines_of_code_per_line_of_comment value="5.421" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.763" level="0" />
+</member_function>
+<member_function>
+<name>change_selected(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="2862" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>circuit_check()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="2445" />
+</extent>
+<lines_of_code value="144" level="2" />
+<McCabes_cyclomatic_complexity value="37" level="2" />
+<lines_of_comment value="266" level="0" />
+<lines_of_code_per_line_of_comment value="0.541" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.139" level="0" />
+</member_function>
+<member_function>
+<name>mouseDragged(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="3121" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mouseMoved(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_latch_positive.java" line="3116" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>MyPanel</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ActionEvent</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_latch_positive.java" line="2867" />
+</extent>
+<name>ActionListener</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>implements</description>
+<source_reference file="exp6_latch_positive.java" line="49" />
+</extent>
+<name>Image</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="134" />
+</extent>
+<name>ImageIcon</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="135" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="137" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="138" />
+</extent>
+<name>JButton</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2177" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2178" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2180" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2191" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2194" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2196" />
+</extent>
+<name>JComboBox</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2179" />
+</extent>
+<name>JFrame[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="85" />
+</extent>
+<name>JPanel</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>extends</description>
+<source_reference file="exp6_latch_positive.java" line="49" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2176" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2183" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2187" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2189" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2190" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2192" />
+</extent>
+<name>JSplitPane</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2182" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2188" />
+</extent>
+<name>JToolBar</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2193" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2195" />
+</extent>
+<name>MediaTracker</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="140" />
+</extent>
+<name>MouseEvent</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_latch_positive.java" line="3116" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_latch_positive.java" line="3121" />
+</extent>
+<name>MouseMotionListener</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>implements</description>
+<source_reference file="exp6_latch_positive.java" line="49" />
+</extent>
+<name>String</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="109" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="110" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="111" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="112" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="113" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="114" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="117" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="118" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="119" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="120" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="121" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="122" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="124" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="125" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="126" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="127" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="128" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="129" />
+</extent>
+<name>String[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="86" />
+</extent>
+<name>URL</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="141" />
+</extent>
+<name>WorkPanel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2197" />
+</extent>
+<name>graph</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="2185" />
+</extent>
+<name>line[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="81" />
+</extent>
+<name>myDialog[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="84" />
+</extent>
+<name>node[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_latch_positive.java" line="78" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

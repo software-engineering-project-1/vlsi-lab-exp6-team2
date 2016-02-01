@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module WorkPanel-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="581" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="81" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="312" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="1.862" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.260" level="0" />
+<weighted_methods_per_class_unity value="20" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="36" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="36" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1036" />
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>WorkPanel()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1038" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="3.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_2input_mux(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1706" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_capacitor(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1861" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_cmos(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1830" />
+</extent>
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="11.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_ground(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1882" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_input(Graphics2D,int,int,int,double,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1920" />
+</extent>
+<lines_of_code value="32" level="1" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="3.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_inverter(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1734" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_latch(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1679" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_mux(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1757" />
+</extent>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="24.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_nmos(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1792" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="2.333" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_output(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1963" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>draw_vdd(Graphics2D,int,int,int,double)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1901" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mouseClicked(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1188" />
+</extent>
+<lines_of_code value="146" level="2" />
+<McCabes_cyclomatic_complexity value="37" level="2" />
+<lines_of_comment value="129" level="0" />
+<lines_of_code_per_line_of_comment value="1.132" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.287" level="0" />
+</member_function>
+<member_function>
+<name>mouseDragged(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1087" />
+</extent>
+<lines_of_code value="42" level="1" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="52" level="0" />
+<lines_of_code_per_line_of_comment value="0.808" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.231" level="0" />
+</member_function>
+<member_function>
+<name>mouseEntered(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1477" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mouseExited(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1480" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mouseMoved(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1068" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mousePressed(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1483" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="1.929" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>mouseReleased(MouseEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1455" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>paint(Graphics)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="1525" />
+</extent>
+<lines_of_code value="90" level="1" />
+<McCabes_cyclomatic_complexity value="16" level="1" />
+<lines_of_comment value="57" level="0" />
+<lines_of_code_per_line_of_comment value="1.579" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.281" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>WorkPanel</name>
+<client_module>
+<name>MyPanel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="2181" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Graphics</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1525" />
+</extent>
+<name>Graphics2D</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1679" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1706" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1734" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1757" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1792" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1830" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1861" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1882" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1901" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1920" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1963" />
+</extent>
+<name>JPanel</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>extends</description>
+<source_reference file="exp6_flipflop_positive.java" line="1036" />
+</extent>
+<name>MouseEvent</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1068" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1087" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1188" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1455" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1477" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1480" />
+</extent>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="1483" />
+</extent>
+<name>MouseListener</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>implements</description>
+<source_reference file="exp6_flipflop_positive.java" line="1036" />
+</extent>
+<name>MouseMotionListener</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>implements</description>
+<source_reference file="exp6_flipflop_positive.java" line="1036" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

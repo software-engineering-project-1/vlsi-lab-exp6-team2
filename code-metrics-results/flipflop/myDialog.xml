@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module myDialog-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="364" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="30" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="93" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="3.914" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.323" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="11" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="524" />
+<lines_of_code value="23" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="23.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>actionPerformed(ActionEvent)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="922" />
+</extent>
+<lines_of_code value="79" level="1" />
+<McCabes_cyclomatic_complexity value="20" level="1" />
+<lines_of_comment value="24" level="0" />
+<lines_of_code_per_line_of_comment value="3.292" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.833" level="0" />
+</member_function>
+<member_function>
+<name>get_capacitance()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="917" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>get_length()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="888" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>get_width()</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="903" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>myDialog(JFrame,String,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="exp6_flipflop_positive.java" line="549" />
+</extent>
+<lines_of_code value="234" level="2" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="61" level="0" />
+<lines_of_code_per_line_of_comment value="3.836" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.098" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>myDialog</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ActionEvent</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="922" />
+</extent>
+<name>ActionListener</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>implements</description>
+<source_reference file="exp6_flipflop_positive.java" line="524" />
+</extent>
+<name>Container</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="542" />
+</extent>
+<name>JButton</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="543" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="544" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="545" />
+</extent>
+<name>JComboBox</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="529" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="531" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="533" />
+</extent>
+<name>JDialog</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>extends</description>
+<source_reference file="exp6_flipflop_positive.java" line="524" />
+</extent>
+<name>JFrame</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="549" />
+</extent>
+<name>JSpinner</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="526" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="530" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="532" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="535" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="536" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="537" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="538" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="539" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="540" />
+</extent>
+<name>SpinnerModel</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="527" />
+</extent>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="528" />
+</extent>
+<name>String</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>normal parameter</description>
+<source_reference file="exp6_flipflop_positive.java" line="549" />
+</extent>
+<extent>
+<description>return type</description>
+<source_reference file="exp6_flipflop_positive.java" line="888" />
+</extent>
+<extent>
+<description>return type</description>
+<source_reference file="exp6_flipflop_positive.java" line="903" />
+</extent>
+<extent>
+<description>return type</description>
+<source_reference file="exp6_flipflop_positive.java" line="917" />
+</extent>
+<name>String[]</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>member variable</description>
+<source_reference file="exp6_flipflop_positive.java" line="546" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>
