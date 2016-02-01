@@ -1,0 +1,22 @@
+* Author 
+  Team 2
+* Date Created 
+  Fri Jan 29 18:21:28 IST 2016
+* Environment
++ OS: Linux Mint Rosa 17  
++ Browser: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
++ Hardware Configuration: 4GB RAM
++ Processor: i5
+* Objective 
+  To test the simulate button 
+* Pre conditions 
+  The plugin should be installed in the browser and the experiment
+  applet must be running.
+* Post conditions 
+  Simulate button does not work even after multiple refreshes.
+* Test Steps 
+   Step-1: Visit the link: http://cse14-iiith.vlabs.ac.in/EXP_1sep2010/exp6/exp6_negative/exp6_flipflop_negative.html
+   Step-2: Construct the complete circuit and press simulate button.
+
+* Expected result 
+  The circuit must be successfully simulated on pressing the simulate button.
