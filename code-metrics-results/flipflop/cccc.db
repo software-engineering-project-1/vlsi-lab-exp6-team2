@@ -1,0 +1,332 @@
+CCCC_Module@ActionEvent@@
+CCCC_Module@ActionListener@@
+CCCC_Module@Container@@
+CCCC_Module@Font@@
+CCCC_Module@Graphics@@
+CCCC_Module@Graphics2D@@
+CCCC_Module@Image@@
+CCCC_Module@ImageIcon@@
+CCCC_Module@JApplet@@
+CCCC_Module@JButton@@
+CCCC_Module@JComboBox@@
+CCCC_Module@JDialog@@
+CCCC_Module@JFrame@@
+CCCC_Module@JFrame[]@@
+CCCC_Module@JLabel@@
+CCCC_Module@JPanel@@
+CCCC_Module@JSpinner@@
+CCCC_Module@JSplitPane@@
+CCCC_Module@JToolBar@@
+CCCC_Module@MediaTracker@@
+CCCC_Module@MouseEvent@@
+CCCC_Module@MouseListener@@
+CCCC_Module@MouseMotionListener@@
+CCCC_Module@MyPanel@class@
+CCCC_ModExt@MyPanel@class@exp6_flipflop_positive.java@49@definition@?????@LOC:81 COM:42 MVG:0@?@d@
+CCCC_Module@SpinnerModel@@
+CCCC_Module@String@@
+CCCC_Module@StringBuffer@@
+CCCC_Module@String[]@@
+CCCC_Module@TextArea@@
+CCCC_Module@URL@@
+CCCC_Module@WA@class@
+CCCC_ModExt@WA@class@exp6_flipflop_positive.java@1028@definition@?????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Module@WindowAdapter@@
+CCCC_Module@WindowEvent@@
+CCCC_Module@WorkPanel@class@
+CCCC_ModExt@WorkPanel@class@exp6_flipflop_positive.java@1036@definition@?????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@exp6_flipflop_positive@class@
+CCCC_ModExt@exp6_flipflop_positive@class@exp6_flipflop_positive.java@22@definition@?????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@graph@class@
+CCCC_ModExt@graph@class@exp6_flipflop_positive.java@1995@definition@?????@LOC:14 COM:0 MVG:0@?@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@line@class@
+CCCC_ModExt@line@class@exp6_flipflop_positive.java@430@definition@?????@LOC:8 COM:1 MVG:0@?@d@
+CCCC_Module@line[]@@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@myDialog@class@
+CCCC_ModExt@myDialog@class@exp6_flipflop_positive.java@524@definition@?????@LOC:23 COM:1 MVG:0@?@d@
+CCCC_Module@myDialog[]@@
+CCCC_Module@node@class@
+CCCC_ModExt@node@class@exp6_flipflop_positive.java@143@definition@?????@LOC:17 COM:4 MVG:0@?@d@
+CCCC_Module@node[]@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@MyPanel@MyPanel@@()@
+CCCC_MemExt@MyPanel@MyPanel@@()@exp6_flipflop_positive.java@2185@definition@????0@LOC:147 COM:53 MVG:7@?@d@
+CCCC_Member@MyPanel@actionPerformed@void@(ActionEvent)@
+CCCC_MemExt@MyPanel@actionPerformed@void@(ActionEvent)@exp6_flipflop_positive.java@2847@definition@????0@LOC:199 COM:36 MVG:28@?@d@
+CCCC_Member@MyPanel@change_selected@void@(int)@
+CCCC_MemExt@MyPanel@change_selected@void@(int)@exp6_flipflop_positive.java@2842@definition@????0@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@MyPanel@circuit_check@boolean@()@
+CCCC_MemExt@MyPanel@circuit_check@boolean@()@exp6_flipflop_positive.java@2429@definition@????0@LOC:143 COM:266 MVG:36@?@d@
+CCCC_Member@MyPanel@mouseDragged@void@(MouseEvent)@
+CCCC_MemExt@MyPanel@mouseDragged@void@(MouseEvent)@exp6_flipflop_positive.java@3094@definition@????0@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@MyPanel@mouseMoved@void@(MouseEvent)@
+CCCC_MemExt@MyPanel@mouseMoved@void@(MouseEvent)@exp6_flipflop_positive.java@3089@definition@????0@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@WA@windowClosing@void@(WindowEvent)@
+CCCC_MemExt@WA@windowClosing@void@(WindowEvent)@exp6_flipflop_positive.java@1030@definition@????0@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@WorkPanel@WorkPanel@@()@
+CCCC_MemExt@WorkPanel@WorkPanel@@()@exp6_flipflop_positive.java@1038@definition@????0@LOC:21 COM:7 MVG:2@?@d@
+CCCC_Member@WorkPanel@draw_2input_mux@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_2input_mux@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1706@definition@?????@LOC:21 COM:0 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_capacitor@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_capacitor@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1861@definition@?????@LOC:16 COM:2 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_cmos@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_cmos@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1830@definition@?????@LOC:22 COM:2 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_ground@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_ground@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1882@definition@?????@LOC:15 COM:2 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_input@void@(Graphics2D,int,int,int,double,int)@
+CCCC_MemExt@WorkPanel@draw_input@void@(Graphics2D,int,int,int,double,int)@exp6_flipflop_positive.java@1920@definition@?????@LOC:32 COM:10 MVG:4@?@d@
+CCCC_Member@WorkPanel@draw_inverter@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_inverter@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1734@definition@?????@LOC:18 COM:2 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_latch@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_latch@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1679@definition@?????@LOC:19 COM:0 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_mux@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_mux@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1757@definition@?????@LOC:24 COM:1 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_nmos@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_nmos@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1792@definition@?????@LOC:21 COM:9 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_output@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_output@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1963@definition@?????@LOC:18 COM:6 MVG:0@?@d@
+CCCC_Member@WorkPanel@draw_vdd@void@(Graphics2D,int,int,int,double)@
+CCCC_MemExt@WorkPanel@draw_vdd@void@(Graphics2D,int,int,int,double)@exp6_flipflop_positive.java@1901@definition@?????@LOC:14 COM:4 MVG:0@?@d@
+CCCC_Member@WorkPanel@mouseClicked@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseClicked@void@(MouseEvent)@exp6_flipflop_positive.java@1188@definition@????0@LOC:146 COM:129 MVG:37@?@d@
+CCCC_Member@WorkPanel@mouseDragged@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseDragged@void@(MouseEvent)@exp6_flipflop_positive.java@1087@definition@????0@LOC:42 COM:52 MVG:12@?@d@
+CCCC_Member@WorkPanel@mouseEntered@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseEntered@void@(MouseEvent)@exp6_flipflop_positive.java@1477@definition@????0@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@WorkPanel@mouseExited@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseExited@void@(MouseEvent)@exp6_flipflop_positive.java@1480@definition@????0@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@WorkPanel@mouseMoved@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseMoved@void@(MouseEvent)@exp6_flipflop_positive.java@1068@definition@????0@LOC:12 COM:4 MVG:4@?@d@
+CCCC_Member@WorkPanel@mousePressed@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mousePressed@void@(MouseEvent)@exp6_flipflop_positive.java@1483@definition@????0@LOC:27 COM:14 MVG:4@?@d@
+CCCC_Member@WorkPanel@mouseReleased@void@(MouseEvent)@
+CCCC_MemExt@WorkPanel@mouseReleased@void@(MouseEvent)@exp6_flipflop_positive.java@1455@definition@????0@LOC:14 COM:11 MVG:2@?@d@
+CCCC_Member@WorkPanel@paint@void@(Graphics)@
+CCCC_MemExt@WorkPanel@paint@void@(Graphics)@exp6_flipflop_positive.java@1525@definition@????0@LOC:90 COM:57 MVG:16@?@d@
+CCCC_Member@anonymous@run@void@()@
+CCCC_MemExt@anonymous@run@void@()@exp6_flipflop_positive.java@29@definition@????0@LOC:4 COM:1 MVG:0@?@d@
+CCCC_Member@exp6_flipflop_positive@createAndShowGUI@void@()@
+CCCC_MemExt@exp6_flipflop_positive@createAndShowGUI@void@()@exp6_flipflop_positive.java@43@definition@????2@LOC:5 COM:5 MVG:0@?@d@
+CCCC_Member@exp6_flipflop_positive@init@void@()@
+CCCC_MemExt@exp6_flipflop_positive@init@void@()@exp6_flipflop_positive.java@24@definition@????0@LOC:5 COM:2 MVG:0@?@d@
+CCCC_Member@graph@graph@@()@
+CCCC_MemExt@graph@graph@@()@exp6_flipflop_positive.java@2013@definition@????0@LOC:4 COM:1 MVG:0@?@d@
+CCCC_Member@graph@make_graph@void@()@
+CCCC_MemExt@graph@make_graph@void@()@exp6_flipflop_positive.java@2017@definition@????0@LOC:52 COM:3 MVG:4@?@d@
+CCCC_Member@graph@paint@void@(Graphics)@
+CCCC_MemExt@graph@paint@void@(Graphics)@exp6_flipflop_positive.java@2076@definition@????0@LOC:47 COM:21 MVG:7@?@d@
+CCCC_Member@line@del@void@()@
+CCCC_MemExt@line@del@void@()@exp6_flipflop_positive.java@517@definition@????0@LOC:5 COM:0 MVG:0@?@d@
+CCCC_Member@line@line@@(int,int,int,int)@
+CCCC_MemExt@line@line@@(int,int,int,int)@exp6_flipflop_positive.java@437@definition@????0@LOC:11 COM:0 MVG:0@?@d@
+CCCC_Member@line@update@void@(int,int)@
+CCCC_MemExt@line@update@void@(int,int)@exp6_flipflop_positive.java@461@definition@????0@LOC:6 COM:1 MVG:0@?@d@
+CCCC_Member@line@update1@void@(int,int)@
+CCCC_MemExt@line@update1@void@(int,int)@exp6_flipflop_positive.java@456@definition@????0@LOC:5 COM:1 MVG:0@?@d@
+CCCC_Member@line@update2@void@(int,int)@
+CCCC_MemExt@line@update2@void@(int,int)@exp6_flipflop_positive.java@448@definition@????0@LOC:7 COM:2 MVG:0@?@d@
+CCCC_Member@line@update_mat@void@(int)@
+CCCC_MemExt@line@update_mat@void@(int)@exp6_flipflop_positive.java@499@definition@????0@LOC:18 COM:0 MVG:4@?@d@
+CCCC_Member@line@update_wire_mat@void@(int)@
+CCCC_MemExt@line@update_wire_mat@void@(int)@exp6_flipflop_positive.java@467@definition@????0@LOC:29 COM:3 MVG:19@?@d@
+CCCC_Member@myDialog@actionPerformed@void@(ActionEvent)@
+CCCC_MemExt@myDialog@actionPerformed@void@(ActionEvent)@exp6_flipflop_positive.java@922@definition@????0@LOC:79 COM:24 MVG:20@?@d@
+CCCC_Member@myDialog@get_capacitance@String@()@
+CCCC_MemExt@myDialog@get_capacitance@String@()@exp6_flipflop_positive.java@917@definition@?????@LOC:4 COM:1 MVG:0@?@d@
+CCCC_Member@myDialog@get_length@String@()@
+CCCC_MemExt@myDialog@get_length@String@()@exp6_flipflop_positive.java@888@definition@?????@LOC:12 COM:4 MVG:2@?@d@
+CCCC_Member@myDialog@get_width@String@()@
+CCCC_MemExt@myDialog@get_width@String@()@exp6_flipflop_positive.java@903@definition@?????@LOC:12 COM:2 MVG:2@?@d@
+CCCC_Member@myDialog@myDialog@@(JFrame,String,int)@
+CCCC_MemExt@myDialog@myDialog@@(JFrame,String,int)@exp6_flipflop_positive.java@549@definition@????0@LOC:234 COM:61 MVG:6@?@d@
+CCCC_Member@node@del@void@()@
+CCCC_MemExt@node@del@void@()@exp6_flipflop_positive.java@333@definition@????0@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@node@make_end_points@void@(int)@
+CCCC_MemExt@node@make_end_points@void@(int)@exp6_flipflop_positive.java@222@definition@????0@LOC:94 COM:9 MVG:18@?@d@
+CCCC_Member@node@node@@(int,int,int,int,int,int)@
+CCCC_MemExt@node@node@@(int,int,int,int,int,int)@exp6_flipflop_positive.java@165@definition@????0@LOC:13 COM:0 MVG:0@?@d@
+CCCC_Member@node@remove_end_points@void@()@
+CCCC_MemExt@node@remove_end_points@void@()@exp6_flipflop_positive.java@415@definition@????0@LOC:13 COM:0 MVG:3@?@d@
+CCCC_Member@node@remove_mat@void@()@
+CCCC_MemExt@node@remove_mat@void@()@exp6_flipflop_positive.java@396@definition@????0@LOC:18 COM:2 MVG:16@?@d@
+CCCC_Member@node@rotate@void@(int)@
+CCCC_MemExt@node@rotate@void@(int)@exp6_flipflop_positive.java@337@definition@????0@LOC:33 COM:7 MVG:5@?@d@
+CCCC_Member@node@update_end_points_mat@void@(int)@
+CCCC_MemExt@node@update_end_points_mat@void@(int)@exp6_flipflop_positive.java@181@definition@????0@LOC:33 COM:10 MVG:9@?@d@
+CCCC_Member@node@update_mat@void@(int)@
+CCCC_MemExt@node@update_mat@void@(int)@exp6_flipflop_positive.java@371@definition@????0@LOC:18 COM:5 MVG:16@?@d@
+CCCC_UseRel@ActionEvent@MyPanel@
+CCCC_UseExt@ActionEvent@MyPanel@exp6_flipflop_positive.java@2847@normal parameter@????0@*@?@p@
+CCCC_UseRel@ActionListener@MyPanel@
+CCCC_UseExt@ActionListener@MyPanel@exp6_flipflop_positive.java@49@implements@????0@*@?@I@
+CCCC_UseRel@Image@MyPanel@
+CCCC_UseExt@Image@MyPanel@exp6_flipflop_positive.java@134@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@ImageIcon@MyPanel@
+CCCC_UseExt@ImageIcon@MyPanel@exp6_flipflop_positive.java@135@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@ImageIcon@MyPanel@exp6_flipflop_positive.java@137@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@ImageIcon@MyPanel@exp6_flipflop_positive.java@138@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JButton@MyPanel@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2161@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2162@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2164@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2175@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2178@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@MyPanel@exp6_flipflop_positive.java@2180@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JComboBox@MyPanel@
+CCCC_UseExt@JComboBox@MyPanel@exp6_flipflop_positive.java@2163@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JFrame[]@MyPanel@
+CCCC_UseExt@JFrame[]@MyPanel@exp6_flipflop_positive.java@85@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JPanel@MyPanel@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@49@extends@????0@*@?@I@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2160@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2167@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2171@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2173@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2174@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JPanel@MyPanel@exp6_flipflop_positive.java@2176@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JSplitPane@MyPanel@
+CCCC_UseExt@JSplitPane@MyPanel@exp6_flipflop_positive.java@2166@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSplitPane@MyPanel@exp6_flipflop_positive.java@2172@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JToolBar@MyPanel@
+CCCC_UseExt@JToolBar@MyPanel@exp6_flipflop_positive.java@2177@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JToolBar@MyPanel@exp6_flipflop_positive.java@2179@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@MediaTracker@MyPanel@
+CCCC_UseExt@MediaTracker@MyPanel@exp6_flipflop_positive.java@140@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@MouseEvent@MyPanel@
+CCCC_UseExt@MouseEvent@MyPanel@exp6_flipflop_positive.java@3089@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@MyPanel@exp6_flipflop_positive.java@3094@normal parameter@????0@*@?@p@
+CCCC_UseRel@MouseMotionListener@MyPanel@
+CCCC_UseExt@MouseMotionListener@MyPanel@exp6_flipflop_positive.java@49@implements@????0@*@?@I@
+CCCC_UseRel@String@MyPanel@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@109@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@110@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@111@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@112@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@113@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@114@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@117@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@118@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@119@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@120@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@121@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@122@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@124@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@125@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@126@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@127@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@128@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@MyPanel@exp6_flipflop_positive.java@129@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@String[]@MyPanel@
+CCCC_UseExt@String[]@MyPanel@exp6_flipflop_positive.java@86@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@URL@MyPanel@
+CCCC_UseExt@URL@MyPanel@exp6_flipflop_positive.java@141@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@WorkPanel@MyPanel@
+CCCC_UseExt@WorkPanel@MyPanel@exp6_flipflop_positive.java@2181@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@graph@MyPanel@
+CCCC_UseExt@graph@MyPanel@exp6_flipflop_positive.java@2169@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@line[]@MyPanel@
+CCCC_UseExt@line[]@MyPanel@exp6_flipflop_positive.java@81@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@myDialog[]@MyPanel@
+CCCC_UseExt@myDialog[]@MyPanel@exp6_flipflop_positive.java@84@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@node[]@MyPanel@
+CCCC_UseExt@node[]@MyPanel@exp6_flipflop_positive.java@78@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@WindowAdapter@WA@
+CCCC_UseExt@WindowAdapter@WA@exp6_flipflop_positive.java@1028@extends@????0@*@?@I@
+CCCC_UseRel@WindowEvent@WA@
+CCCC_UseExt@WindowEvent@WA@exp6_flipflop_positive.java@1030@normal parameter@????0@*@?@p@
+CCCC_UseRel@Graphics@WorkPanel@
+CCCC_UseExt@Graphics@WorkPanel@exp6_flipflop_positive.java@1525@normal parameter@????0@*@?@p@
+CCCC_UseRel@Graphics2D@WorkPanel@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1679@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1706@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1734@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1757@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1792@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1830@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1861@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1882@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1901@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1920@normal parameter@?????@*@?@p@
+CCCC_UseExt@Graphics2D@WorkPanel@exp6_flipflop_positive.java@1963@normal parameter@?????@*@?@p@
+CCCC_UseRel@JPanel@WorkPanel@
+CCCC_UseExt@JPanel@WorkPanel@exp6_flipflop_positive.java@1036@extends@????0@*@?@I@
+CCCC_UseRel@MouseEvent@WorkPanel@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1068@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1087@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1188@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1455@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1477@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1480@normal parameter@????0@*@?@p@
+CCCC_UseExt@MouseEvent@WorkPanel@exp6_flipflop_positive.java@1483@normal parameter@????0@*@?@p@
+CCCC_UseRel@MouseListener@WorkPanel@
+CCCC_UseExt@MouseListener@WorkPanel@exp6_flipflop_positive.java@1036@implements@????0@*@?@I@
+CCCC_UseRel@MouseMotionListener@WorkPanel@
+CCCC_UseExt@MouseMotionListener@WorkPanel@exp6_flipflop_positive.java@1036@implements@????0@*@?@I@
+CCCC_UseRel@JApplet@exp6_flipflop_positive@
+CCCC_UseExt@JApplet@exp6_flipflop_positive@exp6_flipflop_positive.java@22@extends@????0@*@?@I@
+CCCC_UseRel@Font@graph@
+CCCC_UseExt@Font@graph@exp6_flipflop_positive.java@2003@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@Graphics@graph@
+CCCC_UseExt@Graphics@graph@exp6_flipflop_positive.java@2076@normal parameter@????0@*@?@p@
+CCCC_UseRel@JLabel@graph@
+CCCC_UseExt@JLabel@graph@exp6_flipflop_positive.java@2002@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JPanel@graph@
+CCCC_UseExt@JPanel@graph@exp6_flipflop_positive.java@1995@extends@????0@*@?@I@
+CCCC_UseRel@String@graph@
+CCCC_UseExt@String@graph@exp6_flipflop_positive.java@1997@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@String@graph@exp6_flipflop_positive.java@2001@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@StringBuffer@graph@
+CCCC_UseExt@StringBuffer@graph@exp6_flipflop_positive.java@1999@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@TextArea@graph@
+CCCC_UseExt@TextArea@graph@exp6_flipflop_positive.java@2000@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@ActionEvent@myDialog@
+CCCC_UseExt@ActionEvent@myDialog@exp6_flipflop_positive.java@922@normal parameter@????0@*@?@p@
+CCCC_UseRel@ActionListener@myDialog@
+CCCC_UseExt@ActionListener@myDialog@exp6_flipflop_positive.java@524@implements@????0@*@?@I@
+CCCC_UseRel@Container@myDialog@
+CCCC_UseExt@Container@myDialog@exp6_flipflop_positive.java@542@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JButton@myDialog@
+CCCC_UseExt@JButton@myDialog@exp6_flipflop_positive.java@543@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@myDialog@exp6_flipflop_positive.java@544@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JButton@myDialog@exp6_flipflop_positive.java@545@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JComboBox@myDialog@
+CCCC_UseExt@JComboBox@myDialog@exp6_flipflop_positive.java@529@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JComboBox@myDialog@exp6_flipflop_positive.java@531@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JComboBox@myDialog@exp6_flipflop_positive.java@533@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@JDialog@myDialog@
+CCCC_UseExt@JDialog@myDialog@exp6_flipflop_positive.java@524@extends@????0@*@?@I@
+CCCC_UseRel@JFrame@myDialog@
+CCCC_UseExt@JFrame@myDialog@exp6_flipflop_positive.java@549@normal parameter@????0@*@?@p@
+CCCC_UseRel@JSpinner@myDialog@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@526@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@530@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@532@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@535@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@536@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@537@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@538@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@539@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@JSpinner@myDialog@exp6_flipflop_positive.java@540@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@SpinnerModel@myDialog@
+CCCC_UseExt@SpinnerModel@myDialog@exp6_flipflop_positive.java@527@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@SpinnerModel@myDialog@exp6_flipflop_positive.java@528@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseRel@String@myDialog@
+CCCC_UseExt@String@myDialog@exp6_flipflop_positive.java@549@normal parameter@????0@*@?@p@
+CCCC_UseExt@String@myDialog@exp6_flipflop_positive.java@888@return type@?????@*@?@p@
+CCCC_UseExt@String@myDialog@exp6_flipflop_positive.java@903@return type@?????@*@?@p@
+CCCC_UseExt@String@myDialog@exp6_flipflop_positive.java@917@return type@?????@*@?@p@
+CCCC_UseRel@String[]@myDialog@
+CCCC_UseExt@String[]@myDialog@exp6_flipflop_positive.java@546@member variable@?????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_RejExt@exp6_flipflop_positive.java@1@<file scope items>@?????@LOC:18 COM:0 MVG:0@?@r@

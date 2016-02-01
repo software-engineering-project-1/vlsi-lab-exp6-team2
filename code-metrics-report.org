@@ -1,0 +1,125 @@
+#+TITLE:     Report on Code Metrics
+#+AUTHOR:    M.S.Soumya
+#+EMAIL:     ms@ms
+#+DATE:      2016-02-01 Mon
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+* Introduction
+  Code metrics are a set of software measures that provide developers
+  better insight into the code they are developing. By taking
+  advantage of code metrics, developers can understand which types
+  and/or methods should be reworked or more thoroughly tested. {[[https://msdn.microsoft.com/en-us/library/bb385914.aspx][MSDN}]]
+  This report describes the various metrics involved in assessing the
+  given code base, their significance and also the tools used to
+  measure the metrics.
+
+* Code metrics 
+  Software code metrics were proposed to measure several aspects of
+  the existing body of source code. Several researchers have
+  contributed in developing a considerable number of distinct
+  quantitative software metrics. Some of such metrics are named after
+  the researcher who defined them. To name a few: McCabe Complexity
+  metrics, Woodward, Hennell and Hedley Knots Metric, Welker
+  Maintainability Index, Chidamber and Kemerer Object Oriented
+  Metrics, and Halstead Complexity Metrics. Different tools use
+  different sets of metrics. Listed below are a few code metrics used
+  in general to measure the code quality.
+
+** Lines of code
+   Number of non-blank, non-comment lines of source code counted by
+   the analyser.  It indicates the approximate number of lines in the
+   code. The count is based on the IL code and is therefore not the
+   exact number of lines in the source code file. A very high count
+   might indicate that a type or method is trying to do too much work
+   and should be split up. It might also indicate that the type or
+   method might be hard to maintain.
+
+** Number of modules
+   Number of non-trivial modules identified by the
+   analyser. Non-trivial modules include all classes, and any other
+   module for which member functions are identified.
+
+** Lines of comments 
+   Number of lines containing either comment or commented-out code.
+   Non-significant comment lines (empty comment lines, comment lines
+   containing only special characters, etc.) do not increase the
+   number of comment lines.
+
+** Lines of code per line of comment
+   Indicates density of comments with respect to textual size of
+   program.
+
+** McCabe's Cyclomatic Complexity
+   A measure of the decision complexity of the functions which make up
+   the program.The strict definition of this measure is that it is the
+   number of linearly independent routes through a directed acyclic
+   graph which maps the flow of control of a subprogram. The analyser
+   counts this by recording the number of distinct decision outcomes
+   contained within each function, which yields a good approximation
+   to the formally defined version of the measure.
+
+** Information Flow measure
+   Counts the number of local information flows entering (fan-in) and
+   exiting (fan-out) each procedure. Thus for a module complexity can
+   be defined as
+   c = [ procedure length] * [ fan-in * fan-out]2
+ 
+   This metrics helpful in measuring coupling between files, procedure
+   or objects.
+   
+  
+** Fan-in Fan-out
+   Fan-in and fan-out metrics measures design time structure
+   complexity and used for defining maintainability. Fan-in and
+   fan-out measurement can be defined for files, procedure and object.
+   Fan-in of a module is the number of other modules calling to this
+   module directly. Fan-out of a module is the number of other modules
+   immediately called by this module.
+** Maintainability Index
+   Calculates an index value between 0 and 100 that represents the
+   relative ease of maintaining the code. A high value means better
+   maintainability. 
+** Depth of Inheritance
+   ndicates the number of class definitions that extend to the root of
+   the class hierarchy. The deeper the hierarchy the more difficult it
+   might be to understand where particular methods and fields are
+   defined or/and redefined.
+** Class Coupling
+   Measures the coupling to unique classes through parameters, local
+   variables, return types, method calls, generic or template
+   instantiations, base classes, interface implementations, fields
+   defined on external types, and attribute decoration. Good software
+   design dictates that types and methods should have high cohesion
+   and low coupling. High coupling indicates a design that is
+   difficult to reuse and maintain because of its many
+   interdependencies on other types.
+
+* Tools for measuring code metrics
+  There are several tools available for measuring code metrics. While
+  some are commercial others are open source. Code Analyzer, CodePro
+  AnalytiX, CCCC, Metrics, JDepend, JavaNCSS, CodeCount are a few
+  tested opensource tools. JArchitect, JHawk, Imagix 4D, Ndepend are a
+  few commercial tools to measure metrics. The tools we used for
+  measuring the code metrics for the given source code are CCCC and
+  Metrics. Both these tools are opensource. The results of the static
+  analysis from both these tools are mentioned below:
+
+** CCCC
+   CCCC is a free software tool for measuring code metrics for C, C++,
+   Java and ada. It was developed by Tim Littlefair as a part of his
+   MSc project.
+   The results of the two java files in the given source code is as
+   follows: [[./code-metrics-results/flipflop/exp6_flipflop_positive.html][result-1]], [[./code-metrics-results/latch/exp6_latch_positive.html][result-2]]. These results also contain links to
+   more specific analysis of some metrics.
+
+** Metrics
