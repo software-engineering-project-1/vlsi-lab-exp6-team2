@@ -1,0 +1,23 @@
+* Author 
+  Team 2
+* Date Created 
+
+* Environment
++ OS: Linux Mint Rosa 17  
++ Browser: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
++ Hardware Configuration: 4GB RAM
++ Processor: i5
+* Objective 
+  To view the integrity of the information on the applet.
+* Pre conditions 
+  The plugin should be installed in the browser and the experiment
+  applet must be running.
+* Post conditions 
+  Typo for the word Negative.
+
+* Test Steps 
+    Step-1: Open and run experiment by visiting link: http://cse14-iiith.vlabs.ac.in/EXP_1sep2010/exp6/exp6_latch_positive.html
+    Step-2: Click on the following available icons one by one: PMOS, NMOS, Capacitor, Ground, Inductor, Resistor, Vdd.
+* Expected result 
+  The applet must only display those components that are required of
+  the experiment.
