@@ -1,0 +1,21 @@
+* Author 
+  Team 2
+* Date Created 
+  Fri Jan 29 15:08:37 IST 2016
+* Environment
++ OS: Linux Mint Rosa 17  
++ Browser: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
++ Hardware Configuration: 4GB RAM
++ Processor: i5
+* Objective 
+  To test if the experiment worked on chrome
+* Pre conditions 
+  Chrome Web Browser should be installed and running on the system.
+* Post conditions 
+  The plugin needed to run the applet is observed to be not supported
+  on Chrome.
+* Test Steps 
+  Step-1: Open Chrome.  
+  Step-2: Visit link: http://cse14-iiith.vlabs.ac.in/EXP_1sep2010/exp6/exp6_latch_positive.html
+* Expected result 
+  The experiment must run on all browsers.
