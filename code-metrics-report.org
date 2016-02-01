@@ -1,5 +1,6 @@
 #+TITLE:     Report on Code Metrics
-
+#+Author: Team-2 [201101213, 201405546, 201450872]
+#+OPTIONS: toc:nil
 * Introduction
   Code metrics are a set of software measures that provide developers
   better insight into the code they are developing. By taking
@@ -95,10 +96,9 @@
   some are commercial others are open source. Code Analyzer, CodePro
   AnalytiX, CCCC, Metrics, JDepend, JavaNCSS, CodeCount are a few
   tested opensource tools. JArchitect, JHawk, Imagix 4D, Ndepend are a
-  few commercial tools to measure metrics. The tools we used for
-  measuring the code metrics for the given source code are CCCC and
-  Metrics. Both these tools are opensource. The results of the static
-  analysis from both these tools are mentioned below:
+  few commercial tools to measure metrics. We used CCCC which is an
+  opensource tool. The results of the static analysis is mentioned
+  below:
 
 ** CCCC
    CCCC is a free software tool for measuring code metrics for C, C++,
@@ -108,4 +108,4 @@
    follows: [[./code-metrics-results/flipflop/exp6_flipflop_positive.html][result-1]], [[./code-metrics-results/latch/exp6_latch_positive.html][result-2]]. These results also contain links to
    more specific analysis of some metrics.
 
-** Metrics
+
