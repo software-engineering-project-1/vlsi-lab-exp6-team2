@@ -1,0 +1,112 @@
+	@import "compass/css3";
+
+* {
+  @include box-sizing(border-box);
+}
+body {
+	padding: 10px 50px 200px;
+}
+$pad: 20px;
+
+.grid {
+  background: white;
+  margin: 0 0 $pad 0;
+  
+  &:after {
+    /* Or @extend clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+[class*='col-'] {
+	float: left;
+  padding-right: $pad;
+  .grid &:last-of-type {
+  	padding-right: 0;
+  }
+}
+.col-2-3 {
+	width: 66.66%;
+}
+.col-1-3 {
+	width: 33.33%;
+}
+.col-1-2 {
+	width: 50%;
+}
+.col-1-4 {
+	width: 25%;
+}
+.col-1-8 {
+	width: 12.5%;
+}
+
+.module {
+  padding: $pad;
+  background: #eee;
+}
+
+/* Opt-in outside padding */
+.grid-pad {
+  padding: $pad 0 $pad $pad;
+  [class*='col-']:last-of-type {
+    padding-right: $pad;
+  }
+}
+
+        #components {
+	    position: absolute;
+	    padding: 20px;
+	    width: 60px;
+	    height: 400px;
+	    border: 2px solid gray;
+	    background-image: url("bk1.jpg");
+            background-repeat:repeat;	
+	}
+        #diagramContainer {
+            padding: 20px;
+	    height: 400px;
+            border: 1px solid gray;
+        }
+	.background {
+	    background-image: url(http://freedevelopertutorials.azurewebsites.net/wp-content/uploads/2015/06/grid.png);
+            background-repeat:repeat;	
+	}
+        .item_input {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+        }
+        .item_output {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+	}
+        .item_latch {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+	}
+        .item_mux {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+	}
+        .item_mux_static {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+	}
+        .item_inverter {
+            position: absolute;
+            height:55px; 
+	    width: 55px;
+            border: 1px solid blue;
+	}

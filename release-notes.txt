@@ -1,0 +1,7 @@
+Release Notes for VLSI Lab
+  1.Commit id of the Source : 
+  2.Version Number of the Lab : v1.0 
+  3.Details of new features added  : -
+  4.Defect link of resolved defects  : -
+  5.Tests conducted with results : - 
+  6.Environment Settings : -

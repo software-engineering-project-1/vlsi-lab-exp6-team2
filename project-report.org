@@ -1,0 +1,148 @@
+#+TITLE:     Project 1 Report [Team-2]
+#+AUTHOR:    Ashwini Tokekar (201405446), Deepak Kathayat (201101213), M.S.Soumya (201450872) 
+#+DATE:      2016-02-15 Mon
+
+* Introduction
+  This document describes in detail an analysis of the codebase given
+  for the Virtual Labs VLSI lab experiment-6 /Schematic design of/
+  /D-latch and D-flipflop/. It also enlists a comparison of the code
+  metrics of the Java code and the re-factored code in JavaScript.
+
+* Java Code analysis
+  The Schematic Design of D-Latch and D-flip-flops was initially
+  written in Java. This section describes the analysis of the code
+  written in Java. The experiment consists of two parts namely the
+  D-flip-flop and the D-Latch. The experiments were to be tested on
+  two types of triggers namely the positive edge trigger and the
+  negative edge trigger. Hence, given code base consists of 4 java
+  files namely /exp6_flipflop_positive.java/,
+  /exp6_flipflop_negative.java/, /exp6_latch_positive.java/ and
+  /exp6_latch_negative.java/. Each file consists of around 3500 lines
+  of java code. In the following sections a detailed analysis of the
+  design and the code is narrated.
+** Proposed design diagram
+
+    [[./class-diagram.jpg]]
+
+** Design smells
+   There are several visible design smells in the existing code.  For
+   determining the structure and design of the given code-base we
+   used the /ObjectAid Eclipse Plugin/. The following are the class
+   diagrams of the four java files. 
+    
+   #+CAPTION:  Latch class diagram
+   #+LABEL: Class diagram for positive edge triggered D-Latch
+   [[./latch.png]]
+   
+   #+CAPTION:  Latch negative class diagram
+   #+LABEL: Class diagram for negative edge triggered D-Latch
+   [[./latch_negative.png]]
+   
+   #+CAPTION:  Flipflop class diagram
+   #+LABEL: Class diagram for positive edge triggered D-flip-flop
+   [[./flipflop.png]]
+   
+   #+CAPTION:  Flipflop negative class diagram
+   #+LABEL: Class diagram for negative edge triggered D-flip-flop
+   [[./flipflop_negative.png]]
+
+   From the diagrams above the following design smells can be
+   inferred:
+   1. Inappropriate use of patterns: It is evident from the above
+      class diagram that suitable deign patterns were not used to
+      design the structure of the codebase.
+   2. Missing Abstraction: All the class files follow the same
+      structure causing lots of redundancy in the methods. Using
+      abstraction would have helped in reducing redundancy and also
+      easier in understanding functionality.
+   3. Insufficient Modularization: Some classes are to large and
+      could have been modularized furhter.
+   4. Leaky Encapsulation: Some of the encapsulation is unnecessary
+      and bloated. There are several variables which can be combined
+      together as one and used across all the classes.
+*** Proposed design diagram
+    [[./class-diagram.jpg]]
+** Code Smells
+   In this section we describe the code smells that were detected
+   in the given code.
+*** Code smells within classes
+    * No comments :: No comments are used throughout the code
+                     explaining some finer details that need to be
+                     noted. This made some parts of the code
+                     incomprehensible.
+    * Long Methods :: Most of the methods are long which makes the
+                      scope of their variables incomprehensible.
+    * Long Parameters List :: The class MyPanel has several parameters
+         which makes it very complex to understand.
+    * Combinitorial Explosion :: The code in all the positive and negative
+         files for both latch and the flipflop are mostly duplicated
+         except for the values of the parameters. This need can be
+         avoided by the use of proper inheritance.
+    * Conditional complexity :: Some of the classes contain complex
+         conditionals which can be avoided altogether by proper
+         structuring.
+    * Uncommunicative names :: Most of the variable names and method
+         names do not suggest their purpose and are incomprehensible.
+    * Inconsistent names :: The names of the methods in one class are
+         intermingled with the names of other classes and do not lead
+         to a proper understanding of the flow or their functionality.
+    * Dead code and speculative Generality :: Some of the code is
+         never used and most of it was modified to solve the problem,
+         rather a hack to get its functionality working.
+ 
+*** Code smells between classes
+    * Refused Bequest :: There are a few classes which inherit other
+         classes but rarely use the inherited functionality.
+    * Divergent Change :: If any change is made in one class the
+         trace of the change needs to be identified to make the
+         change consistent across all the classes.
+    * Indecent Exposure :: Most of the parameters and methods are
+         public and are exposed.
+	 
+** Code metrics
+   The code metrics for the given code were measured using two tools
+   /CCCC/ and /Code Pro/. The results of the code metrics are listed
+   in the following sections.
+
+*** Code Pro
+    The results of the code metrics generated by code pro are as
+    shown in the image below:
+
+    [[./code-metrics-results/java-code/code-pro/java-metrics.png]]
+
+*** CCCC
+    The results are generated in HTML format which are easy to view in
+    HTML itself rather than in screen shots of the page hence we are
+    providing a link to the HTML page here in the document. Click [[./code-metrics-results/CCCC/flipflop/exp6_flipflop_positive.html][here]]
+    to view the results for D-flip-flop and [[./code-metrics-results/CCCC/flipflop/exp6_latch_positive.html][here]] for D-latch. 
+    The results are present in the
+    "/code-metrics-results/java-code/CCCC/" directory.
+
+* Refactored code analysis
+  Because of the large number of code smells and design smells the
+  code was refactored using JavaScript. The code metrics for the
+  JavaScript were obtained in HMTL format. The results are present in
+  the "/code-metrics-results/js-code/code-pro/" directory. The file
+  for the full result is present in the "exp6_flipflop_positive.html"
+  and "exp_latch_positive.html" for the flip-flop and latch files
+  respectively.
+  [[./flip-metrics.png]]
+
+  [[./latch-metrics.png]]
+
+* Conclusion
+  From the metrics above it is evident that the use of design
+  patterns for while designing and keeping in mind a few bets
+  practices while writing the code helps improve the maintainability
+  of the code to a great extent. 
+  
+  Comparison table:
+  #+LABEL: Metrics Comparison table
+|------+-----------------------+--------+------------|
+| S.no | Metric                |   Java | JavaScript |
+|------+-----------------------+--------+------------|
+|   1. | Lines of code         | 12,747 |         55 |
+|   2. | Cyclomatic complexity |   6.27 |          1 |
+|   3. | Maintainability index |  12.35 |    45.5308 |
+|------+-----------------------+--------+------------|
+
